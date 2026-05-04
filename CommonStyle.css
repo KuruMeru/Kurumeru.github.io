@@ -2,10 +2,12 @@
     color-scheme: light dark ;
 }
 
-body{
-        margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo UI", sans-serif;
-        line-height: 1.8;
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo UI", sans-serif;
+    line-height: 1.8;
+    color: CanvasText;
+    background: Canvas;
 }
 
 main {
