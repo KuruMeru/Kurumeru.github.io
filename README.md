@@ -16,6 +16,7 @@ https://kurumeru.github.io/
 - `index.html`: Memoria のトップページ
 - `Memoria_PrivacyPolicy.html`: プライバシーポリシー
 - `CommonStyle.css`: 共通スタイル
+- `assets/screenshots/`: トップページで使用するスクリーンショット
 - `robots.txt`: クローラー向けの案内
 - `sitemap.xml`: 公開ページ一覧
 - `404.html`: 存在しない URL にアクセスされた場合のページ

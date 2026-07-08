@@ -4,35 +4,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Memoriaは、写真や動画の件数をもとに思い出の熱量をヒートマップで振り返るiOSアプリです。">
+    <meta name="description" content="Memoriaは、写真が多かった日をヒートマップで見つけ、カレンダーや写真一覧で思い出を振り返るiOSアプリです。写真・動画は端末内で処理します。">
     <link rel="canonical" href="https://kurumeru.github.io/">
     <link rel="stylesheet" href="CommonStyle.css">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Memoria">
-    <meta property="og:description" content="写真や動画の件数をもとに、思い出の熱量をヒートマップで振り返るiOSアプリです。">
+    <meta property="og:description" content="写真が多かった日から、思い出を見つける。Memoriaは写真・動画を端末内で処理するiOSアプリです。">
     <meta property="og:url" content="https://kurumeru.github.io/">
     <meta name="twitter:card" content="summary">
     <title>Memoria</title>
 </head>
 
 <body>
-    <main>
+    <main class="home">
         <nav class="site-nav" aria-label="サイト内リンク">
-            <a aria-current="page" href="/">Memoria</a>
+            <a class="site-nav-brand" aria-current="page" href="/">Memoria</a>
+            <a href="#features">できること</a>
+            <a href="#privacy">プライバシー</a>
+            <a href="#contact">お問い合わせ</a>
             <a href="Memoria_PrivacyPolicy.html">プライバシーポリシー</a>
         </nav>
 
-        <h1>Memoria</h1>
-        <p class="lead">
-            思い出をヒートマップで振り返ろう！
-        </p>
-        <p>
-            写真や動画の件数をもとに、その日の「思い出の熱量」をヒートマップで確認できます。<br>
-            全期間を眺めながら、写真や動画が多い月をタップして、カレンダーでその月のまとめを確認できます。
-        </p>
-        <p class="link-list">
-            <a href="Memoria_PrivacyPolicy.html">Memoria プライバシーポリシー</a>
-        </p>
+        <section class="hero" aria-labelledby="hero-title">
+            <p class="eyebrow">Memoria</p>
+            <h1 id="hero-title">写真が多かった日から、思い出を見つける。</h1>
+            <p class="hero-copy">
+                Memoriaは、写真や動画の件数をヒートマップで可視化し、気になった日をカレンダーや写真一覧から振り返るためのiOSアプリです。
+            </p>
+            <div class="hero-actions">
+                <a class="app-store-button" href="https://apps.apple.com/app/apple-store/id6778837216?pt=129018011&amp;ct=GithubPages&amp;mt=8" target="_blank" rel="noopener" aria-label="App StoreでMemoriaを見る">
+                    App Storeで見る
+                </a>
+                <a class="secondary-link" href="#privacy">プライバシーについて</a>
+            </div>
+            <ul class="trust-points" aria-label="Memoriaの方針">
+                <li>写真・動画は端末内で処理</li>
+                <li>外部サーバーへ送信しません</li>
+                <li>広告・トラッキング・分析SDKなし</li>
+            </ul>
+        </section>
+
+        <section class="section" aria-labelledby="screenshots-title">
+            <div class="section-heading">
+                <h2 id="screenshots-title">画面イメージ</h2>
+                <p>
+                    ヒートマップで目立つ日を見つけ、月ごとのカレンダーやその日の写真・動画一覧へ進めます。
+                </p>
+            </div>
+            <div class="screenshot-grid">
+                <figure class="screenshot-card">
+                    <img src="assets/screenshots/memoria-heatmap.jpg" width="720" height="1560" alt="Memoriaのヒートマップ画面" loading="lazy">
+                    <figcaption>写真や動画が多かった時期をヒートマップで確認</figcaption>
+                </figure>
+                <figure class="screenshot-card">
+                    <img src="assets/screenshots/memoria-calendar.jpg" width="720" height="1560" alt="ヒートマップからカレンダーへ移動する画面" loading="lazy">
+                    <figcaption>気になった月をカレンダーで振り返る</figcaption>
+                </figure>
+                <figure class="screenshot-card">
+                    <img src="assets/screenshots/memoria-photos.jpg" width="720" height="1560" alt="選んだ日の写真と動画を一覧で見る画面" loading="lazy">
+                    <figcaption>その日の写真と動画をまとめて見る</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="features" class="section" aria-labelledby="features-title">
+            <div class="section-heading">
+                <h2 id="features-title">できること</h2>
+                <p>
+                    写真を細かく探す前に、まず「どの日に思い出が多かったか」を見つけやすくします。
+                </p>
+            </div>
+            <div class="feature-grid">
+                <article class="feature-card">
+                    <h3>ヒートマップで見つける</h3>
+                    <p>
+                        写真や動画の件数を日ごとに集計し、思い出が多かった日をひと目で確認できます。
+                    </p>
+                </article>
+                <article class="feature-card">
+                    <h3>カレンダーで振り返る</h3>
+                    <p>
+                        気になった月を開いて、日付ごとの写真・動画の量をカレンダー上で確認できます。
+                    </p>
+                </article>
+                <article class="feature-card">
+                    <h3>写真と動画をまとめて見る</h3>
+                    <p>
+                        選んだ日の写真と動画をひとつの場所で見返せます。探す時間を減らし、思い出を見る時間を増やします。
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="privacy" class="section privacy-section" aria-labelledby="privacy-title">
+            <div class="section-heading">
+                <h2 id="privacy-title">プライバシーについて</h2>
+                <p>
+                    Memoriaは個人開発の小さなアプリとして、必要以上のデータを集めない方針で作っています。
+                </p>
+            </div>
+            <ul class="privacy-list">
+                <li>写真・動画ファイル、サムネイル画像、日ごとの件数は端末内で処理します。</li>
+                <li>写真・動画の内容や集計結果を外部サーバーへ送信しません。</li>
+                <li>第三者広告、広告目的のトラッキング、第三者分析SDKは使用していません。</li>
+                <li>お問い合わせフォームを利用する場合のみ、入力内容がフォームサービスを通じて送信されます。</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="section contact-section" aria-labelledby="contact-title">
+            <div>
+                <h2 id="contact-title">お問い合わせ</h2>
+                <p>
+                    不具合の報告、使い方の質問、プライバシーに関する確認はこちらからご連絡ください。
+                </p>
+            </div>
+            <div class="contact-actions">
+                <a class="app-store-button" href="https://apps.apple.com/app/apple-store/id6778837216?pt=129018011&amp;ct=GithubPages&amp;mt=8" target="_blank" rel="noopener" aria-label="App StoreでMemoriaを見る">
+                    App Storeで見る
+                </a>
+                <a class="secondary-button" href="https://tally.so/r/EkBp1X" target="_blank" rel="noopener">お問い合わせフォーム</a>
+                <a class="secondary-button" href="Memoria_PrivacyPolicy.html">プライバシーポリシー</a>
+            </div>
+        </section>
     </main>
 </body>
 
