@@ -4,15 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Memoriaは、写真が多かった日をヒートマップで見つけ、カレンダーや写真一覧で思い出を振り返るiOSアプリです。写真・動画は端末内で処理します。">
+    <meta name="description" content="Memoriaは、写真が多かった日をヒートマップで見つけ、カレンダーや写真一覧で思い出を振り返るiPhone・iPad向けアプリです。写真・動画は端末内で処理します。">
     <link rel="canonical" href="https://kurumeru.github.io/">
-    <link rel="stylesheet" href="CommonStyle.css">
+    <link rel="stylesheet" href="CommonStyle.css?v=20260713-2">
+    <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+    <link rel="icon" type="image/png" href="assets/icons/favicon-dark.png" media="(prefers-color-scheme: dark)">
+    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Memoria">
-    <meta property="og:description" content="写真が多かった日から、思い出を見つける。Memoriaは写真・動画を端末内で処理するiOSアプリです。">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:title" content="Memoria｜写真が多かった日から、思い出を見つける">
+    <meta property="og:description" content="写真が多かった日から、思い出を見つける。Memoriaは写真・動画を端末内で処理するiPhone・iPad向けアプリです。">
     <meta property="og:url" content="https://kurumeru.github.io/">
-    <meta name="twitter:card" content="summary">
-    <title>Memoria</title>
+    <meta property="og:image" content="https://kurumeru.github.io/assets/og/memoria-og.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Memoriaのアプリアイコンとヒートマップ画面">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Memoria｜写真が多かった日から、思い出を見つける">
+    <meta name="twitter:description" content="写真が多かった日をヒートマップで見つけ、思い出を振り返るiPhone・iPad向けアプリです。">
+    <meta name="twitter:image" content="https://kurumeru.github.io/assets/og/memoria-og.png">
+    <title>Memoria｜写真が多かった日から、思い出を見つける</title>
 </head>
 
 <body>
@@ -29,17 +40,17 @@
             <p class="eyebrow">Memoria</p>
             <h1 id="hero-title">写真が多かった日から、思い出を見つける。</h1>
             <p class="hero-copy">
-                Memoriaは、写真や動画の件数をヒートマップで可視化し、気になった日をカレンダーや写真一覧から振り返るためのiOSアプリです。
+                Memoriaは、写真や動画の件数をヒートマップで可視化し、気になった日をカレンダーや写真一覧から振り返るためのiPhone・iPad向けアプリです。
             </p>
             <div class="hero-actions">
-                <a class="app-store-button" href="https://apps.apple.com/app/apple-store/id6778837216?pt=129018011&amp;ct=GithubPages&amp;mt=8" target="_blank" rel="noopener" aria-label="App StoreでMemoriaを見る">
-                    App Storeで見る
+                <a class="app-store-badge-link" href="https://apps.apple.com/app/apple-store/id6778837216?pt=129018011&amp;ct=GithubPages&amp;mt=8" target="_blank" rel="noopener" aria-label="App StoreでMemoriaをダウンロード">
+                    <img class="app-store-badge" src="assets/badges/download-on-the-app-store-ja.svg" width="109" height="40" alt="App Storeからダウンロード">
                 </a>
                 <a class="secondary-link" href="#privacy">プライバシーについて</a>
             </div>
             <ul class="trust-points" aria-label="Memoriaの方針">
                 <li>写真・動画は端末内で処理</li>
-                <li>外部サーバーへ送信しません</li>
+                <li>写真・動画を外部サーバーへ送信しません</li>
                 <li>広告・トラッキング・分析SDKなし</li>
             </ul>
         </section>
@@ -53,15 +64,15 @@
             </div>
             <div class="screenshot-grid">
                 <figure class="screenshot-card">
-                    <img src="assets/screenshots/memoria-heatmap.jpg" width="720" height="1560" alt="Memoriaのヒートマップ画面" loading="lazy">
+                    <img src="assets/screenshots/memoria-heatmap.jpg?v=1.0.1" width="720" height="1560" alt="Memoriaのヒートマップ画面" loading="lazy">
                     <figcaption>写真や動画が多かった時期をヒートマップで確認</figcaption>
                 </figure>
                 <figure class="screenshot-card">
-                    <img src="assets/screenshots/memoria-calendar.jpg" width="720" height="1560" alt="ヒートマップからカレンダーへ移動する画面" loading="lazy">
+                    <img src="assets/screenshots/memoria-calendar.jpg?v=1.0.1" width="720" height="1560" alt="ヒートマップからカレンダーへ移動する画面" loading="lazy">
                     <figcaption>気になった月をカレンダーで振り返る</figcaption>
                 </figure>
                 <figure class="screenshot-card">
-                    <img src="assets/screenshots/memoria-photos.jpg" width="720" height="1560" alt="選んだ日の写真と動画を一覧で見る画面" loading="lazy">
+                    <img src="assets/screenshots/memoria-photos.jpg?v=1.0.1" width="720" height="1560" alt="選んだ日の写真と動画を一覧で見る画面" loading="lazy">
                     <figcaption>その日の写真と動画をまとめて見る</figcaption>
                 </figure>
             </div>
@@ -93,6 +104,18 @@
                         選んだ日の写真と動画をひとつの場所で見返せます。探す時間を減らし、思い出を見る時間を増やします。
                     </p>
                 </article>
+                <article class="feature-card">
+                    <h3>思い出の一枚を残す</h3>
+                    <p>
+                        大切な日には「思い出の一枚」を設定し、特別な記憶へすぐに戻れます。
+                    </p>
+                </article>
+                <article class="feature-card">
+                    <h3>好みの外観で楽しむ</h3>
+                    <p>
+                        ライトとダーク、ブルーとレッドの外観テーマから、見やすい組み合わせを選べます。
+                    </p>
+                </article>
             </div>
         </section>
 
@@ -119,13 +142,18 @@
                 </p>
             </div>
             <div class="contact-actions">
-                <a class="app-store-button" href="https://apps.apple.com/app/apple-store/id6778837216?pt=129018011&amp;ct=GithubPages&amp;mt=8" target="_blank" rel="noopener" aria-label="App StoreでMemoriaを見る">
-                    App Storeで見る
+                <a class="app-store-badge-link" href="https://apps.apple.com/app/apple-store/id6778837216?pt=129018011&amp;ct=GithubPages&amp;mt=8" target="_blank" rel="noopener" aria-label="App StoreでMemoriaをダウンロード">
+                    <img class="app-store-badge" src="assets/badges/download-on-the-app-store-ja.svg" width="109" height="40" alt="App Storeからダウンロード">
                 </a>
                 <a class="secondary-button" href="https://tally.so/r/EkBp1X" target="_blank" rel="noopener">お問い合わせフォーム</a>
                 <a class="secondary-button" href="Memoria_PrivacyPolicy.html">プライバシーポリシー</a>
             </div>
         </section>
+
+        <footer class="site-footer">
+            <p>© 2026 Yuto Saeki</p>
+            <p>Apple、Appleのロゴ、App Store、iPhone、iPadは、米国およびその他の国や地域で登録されたApple Inc.の商標です。</p>
+        </footer>
     </main>
 </body>
 

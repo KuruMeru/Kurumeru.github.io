@@ -99,6 +99,12 @@ h4 {
     margin-top: 2em;
 }
 
+.standalone-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+}
+
 .hero {
     padding: 28px 0 16px;
 }
@@ -131,28 +137,29 @@ h4 {
     margin-top: 28px;
 }
 
-.app-store-button,
+.app-store-badge-link,
 .secondary-button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     min-height: 48px;
-    padding: 0 18px;
     border-radius: 8px;
     font-weight: 700;
     text-decoration: none;
 }
 
-.app-store-button {
-    color: var(--accent-text);
-    background: var(--accent);
+.app-store-badge-link {
+    padding: 4px 0;
 }
 
-.app-store-button:hover {
-    background: var(--accent-hover);
+.app-store-badge {
+    display: block;
+    width: 164px;
+    height: auto;
 }
 
 .secondary-button {
+    padding: 0 18px;
     color: var(--text);
     border: 1px solid var(--border);
     background: var(--surface);
@@ -268,6 +275,19 @@ h4 {
     padding: 24px;
 }
 
+.site-footer {
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.78rem;
+    line-height: 1.6;
+}
+
+.site-footer p {
+    margin: 6px 0 0;
+}
+
 .privacy-list {
     display: grid;
     gap: 10px;
@@ -349,7 +369,7 @@ a:focus-visible {
         margin-top: 56px;
     }
 
-    .app-store-button,
+    .app-store-badge-link,
     .secondary-button,
     .secondary-link {
         width: 100%;
