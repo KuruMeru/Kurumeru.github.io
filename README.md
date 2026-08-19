@@ -1,6 +1,6 @@
 # Kurumeru.github.io
 
-Memoria の公式ページとプライバシーポリシーを公開するための GitHub Pages リポジトリです。
+Memoria の公式ページ、検索意図別の案内ページ、プライバシーポリシーを公開するための GitHub Pages リポジトリです。
 
 ## 公開 URL
 
@@ -14,6 +14,7 @@ https://kurumeru.github.io/
 ## 主なファイル
 
 - `index.html`: Memoria のトップページ
+- `iphone-photos-too-many/index.html`: 写真が多すぎて見返せない人向けの案内ページ
 - `Memoria_PrivacyPolicy.html`: プライバシーポリシー
 - `CommonStyle.css`: 共通スタイル
 - `assets/screenshots/`: トップページで使用するスクリーンショット
@@ -30,4 +31,5 @@ https://kurumeru.github.io/
 - トップページの日本語スクリーンショットは、公開中のアプリ版に対応する `../Memoria-HeatMap-release-next/docs/assets/app-store-screenshots/submitted/<version>/iPhone-ja/` から、ヒートマップ、カレンダー、写真一覧の3枚を使用します。
 - App Store バッジは Apple 公式の日本語版を使用します。色や文字、縦横比は変更しません。
 - 新しいアプリ版で画面や機能が変わった場合だけ、スクリーンショット、機能紹介、OGP画像を更新します。文言や画面に変更がないアプリ更新では、サイト側の作業は不要です。
+- 検索意図別の案内ページは、実装済みの機能と既存スクリーンショットに基づくものだけを必要な範囲で追加し、量産しません。
 - `CommonStyle.css` を更新した場合は、各 HTML の `?v=` を新しい値へ揃えます。スクリーンショットを差し替えた場合も、`index.html` の画像URLにある `?v=` を公開するアプリ版へ更新し、古いキャッシュが残らないようにします。
